@@ -9,9 +9,7 @@ When powered, 15× acceleration compared to vanilla Powered Rails.
 to craft emerald rails, player needs 4 emeralds, 2 redstone dust and a breeze rod.
 In a 3x3 crafting table, with this formation, the player can craft 6 emerald rails. (E: emerald, R: redstone dust, B: breeze rod.)
 
-E   E\n
-R B R\n
-E   E
+<img width="70" height="92" alt="emeraldrecipe" src="https://github.com/user-attachments/assets/60a4d520-fc81-4dee-aea2-ce114ebc2d13" />
 
 ## NOTE:
 This mod does not uncap minecart speed. Vanilla minecarts have a hard speed limit, so Emerald Rails mainly helps you reach top speed much faster.
