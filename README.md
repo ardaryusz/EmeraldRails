@@ -9,8 +9,8 @@ When powered, 15× acceleration compared to vanilla Powered Rails.
 to craft emerald rails, player needs 4 emeralds, 2 redstone dust and a breeze rod.
 In a 3x3 crafting table, with this formation, the player can craft 6 emerald rails. (E: emerald, R: redstone dust, B: breeze rod.)
 
-E   E
-R B R
+E   E\n
+R B R\n
 E   E
 
 ## NOTE:
