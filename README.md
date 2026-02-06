@@ -1,4 +1,4 @@
-Emerald Rails adds a new rail for Fabric 1.21.11: the Emerald Rail.
+Emerald Rails adds a new rail to Minecraft: the Emerald Rail.
 It behaves like a Powered Rail (requires redstone power to activate), but when powered it provides 15× stronger acceleration than a vanilla Powered Rail — without changing Minecraft’s built-in minecart speed cap. That means you’ll hit the vanilla cap faster, but you won’t go faster than vanilla allows unless you use another mod to raise/remove that limit.
 
 <img width="425" height="230" alt="rails (1)" src="https://github.com/user-attachments/assets/d370cf07-5e4a-48de-a833-adecaff3813d" />
