@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "emeraldrails:block/emerald_rail_on"
+  }
+}

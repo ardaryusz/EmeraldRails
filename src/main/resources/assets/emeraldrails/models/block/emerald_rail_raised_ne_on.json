@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_rail_raised_ne",
+  "textures": {
+    "rail": "emeraldrails:block/emerald_rail_on"
+  }
+}
