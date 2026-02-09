@@ -9,6 +9,6 @@ public class EmeraldRails implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.init();
-
+		EmeraldRailsTooltips.init();
 	}
 }

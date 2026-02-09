@@ -1,3 +1,4 @@
 {
-  "block.emeraldrails.emerald_rail": "Emerald Rail"
+  "block.emeraldrails.emerald_rail": "Emerald Rail",
+  "tooltip.emeraldrails.emerald_rail": "15x more power than a powered rail"
 }
