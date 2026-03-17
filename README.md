@@ -14,7 +14,7 @@ for 1.21.6-1.21.11, to craft an emerald rail, the player needs 4 emeralds, 2 red
 
 for 1.20.1, to craft an emerald rail, the player needs 4 emeralds, 2 redstone dust, 2 prismarine crystals and a blaze rod.
 
-picture to be added here...
+<img width="450" height="450" alt="railcraft (2)" src="https://github.com/user-attachments/assets/c8cb7edb-392f-4312-a5d3-956429acff6c" />
 
 ## NOTE:
 This mod does not uncap minecart speed. Vanilla minecarts have a hard speed limit, so Emerald Rails mainly helps you reach top speed much faster.
