@@ -15,16 +15,20 @@
 	"icon": "assets/emeraldrails/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["com.ardaryusz.emeraldrails.EmeraldRails"],
-		"client": ["com.ardaryusz.emeraldrails.client.EmeraldRailsClient"]
+		"main": [
+			"com.ardaryusz.emeraldrails.EmeraldRails"
+		],
+		"client": [
+			"com.ardaryusz.emeraldrails.client.EmeraldRailsClient"
+		]
 	},
 	"mixins": [
 		"emeraldrails.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.6",
-		"java": ">=21",
-		"fabric-api": ">=0.127.0+1.21.6"
+		"fabricloader": ">=0.16.12",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.92.7+1.20.1"
 	}
 }

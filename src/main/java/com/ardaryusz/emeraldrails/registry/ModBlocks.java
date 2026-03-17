@@ -6,10 +6,11 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
-import net.minecraft.item.Items;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -24,11 +25,12 @@ public final class ModBlocks {
     );
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
-        Identifier id = Identifier.of(EmeraldRails.MOD_ID, path);
-        RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, id);
+        Identifier id = new Identifier(EmeraldRails.MOD_ID, path);
 
-        Block block = Blocks.register(key, factory, settings);
-        Items.register(block); // registers the BlockItem with the same id
+        Block block = factory.apply(settings);
+
+        Registry.register(Registries.BLOCK, id, block);
+        Registry.register(Registries.ITEM, id, new BlockItem(block, new Item.Settings()));
 
         return block;
     }

@@ -8,9 +8,13 @@ Works like a Powered Rail: powered by redstone signal.
 When powered, 15× acceleration compared to vanilla Powered Rails.
 
 # Crafting
-to craft emerald rails, player needs 4 emeralds, 2 redstone dust and a breeze rod.
+for 1.21.6-1.21.11, to craft an emerald rail, the player needs 4 emeralds, 2 redstone dust and a breeze rod.
 
 <img width="450" height="404" alt="railcraft (1)" src="https://github.com/user-attachments/assets/7dae9576-dd57-48a4-9d5d-154602d11464" />
+
+for 1.20.1, to craft an emerald rail, the player needs 4 emeralds, 2 redstone dust, 2 prismarine crystals and a blaze rod.
+
+picture to be added here...
 
 ## NOTE:
 This mod does not uncap minecart speed. Vanilla minecarts have a hard speed limit, so Emerald Rails mainly helps you reach top speed much faster.

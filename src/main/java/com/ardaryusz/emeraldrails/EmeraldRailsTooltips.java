@@ -7,17 +7,12 @@ import net.minecraft.text.Text;
 public class EmeraldRailsTooltips {
 
     public static void init() {
-        ItemTooltipCallback.EVENT.register(
-                (stack, context, tooltipType, lines) -> {
-                    if (stack.isOf(ModBlocks.EMERALD_RAIL.asItem())) {
-                        lines.add(
-                                Text.translatable("tooltip.emeraldrails.emerald_rail")
-                        );
-                    }
-                }
-        );
+        ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
+            if (stack.isOf(ModBlocks.EMERALD_RAIL.asItem())) {
+                lines.add(Text.translatable("tooltip.emeraldrails.emerald_rail"));
+            }
+        });
     }
-
 }
 
-//huge thanks to rafaelpierangeli for suggesting and even helping with this!
+// huge thanks to rafaelpierangeli for suggesting and even helping with this!
